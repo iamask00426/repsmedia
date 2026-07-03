@@ -83,14 +83,6 @@ const Contact = () => {
               </div>
 
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-                <Send size={16} style={{ color: 'var(--color-primary)' }} />
-                <div>
-                  <span style={{ display: 'block', fontSize: '0.7rem', textTransform: 'uppercase', color: 'var(--color-text-muted)', fontWeight: 600 }}>Telegram</span>
-                  <a href="https://t.me/repsayu" target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.95rem', fontWeight: 700, color: '#ffffff', textDecoration: 'underline' }}>@repsayu</a>
-                </div>
-              </div>
-              
-              <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
                 <MapPin size={16} style={{ color: 'var(--color-primary)' }} />
                 <div>
                   <span style={{ display: 'block', fontSize: '0.7rem', textTransform: 'uppercase', color: 'var(--color-text-muted)', fontWeight: 600 }}>Locations</span>

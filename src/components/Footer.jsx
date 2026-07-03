@@ -76,10 +76,6 @@ const Footer = () => {
                 <MessageSquare size={14} style={{ color: 'var(--color-primary)' }} />
                 <a href="https://wa.me/918368215537" target="_blank" rel="noopener noreferrer" style={{ transition: 'color 0.2s' }}>WhatsApp</a>
               </div>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                <Send size={14} style={{ color: 'var(--color-primary)' }} />
-                <a href="https://t.me/repsayu" target="_blank" rel="noopener noreferrer" style={{ transition: 'color 0.2s' }}>Telegram</a>
-              </div>
             </div>
           </div>
 
