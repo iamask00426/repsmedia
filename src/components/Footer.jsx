@@ -17,10 +17,10 @@ const Footer = () => {
   };
 
   return (
-    <footer style={{ padding: '6rem 0 3.5rem 0', borderTop: '1px solid var(--color-border)', marginTop: 'auto', background: 'var(--color-bg-surface)', position: 'relative', overflow: 'hidden' }}>
+    <footer style={{ padding: '6rem 0 3.5rem 0', borderTop: '1px solid rgba(255, 255, 255, 0.05)', marginTop: 'auto', background: '#050505', position: 'relative', overflow: 'hidden' }}>
       
       {/* Background glow overlay */}
-      <div style={{ position: 'absolute', bottom: 0, right: 0, width: '400px', height: '400px', borderRadius: '50%', background: 'radial-gradient(circle, rgba(59, 130, 246, 0.02) 0%, transparent 70%)', zIndex: 0, pointerEvents: 'none' }} />
+      <div style={{ position: 'absolute', bottom: 0, right: 0, width: '400px', height: '400px', borderRadius: '50%', background: 'radial-gradient(circle, rgba(123, 97, 255, 0.03) 0%, transparent 70%)', zIndex: 0, pointerEvents: 'none' }} />
 
       <div className="container" style={{ position: 'relative', zIndex: 1 }}>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(12, 1fr)', gap: '3rem', marginBottom: '5rem' }} className="footer-grid">

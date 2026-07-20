@@ -9,6 +9,8 @@ import Services from './pages/Services';
 import ServiceDetail from './pages/ServiceDetail';
 import Contact from './pages/Contact';
 import ScrollToTop from './components/ScrollToTop';
+import LoadingScreen from './components/LoadingScreen';
+import CursorGlow from './components/CursorGlow';
 
 import './index.css';
 
@@ -31,13 +33,16 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
-      <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-        <Navbar />
-        <main style={{ flexGrow: 1 }}>
-          <AnimatedRoutes />
-        </main>
-        <Footer />
-      </div>
+      <CursorGlow />
+      <LoadingScreen>
+        <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+          <Navbar />
+          <main style={{ flexGrow: 1 }}>
+            <AnimatedRoutes />
+          </main>
+          <Footer />
+        </div>
+      </LoadingScreen>
     </Router>
   );
 }

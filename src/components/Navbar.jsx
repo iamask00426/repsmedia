@@ -23,13 +23,16 @@ const Navbar = () => {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.5, ease: 'easeOut' }}
       style={{ 
-        padding: '1.25rem 0', 
+        padding: '1rem 0', 
         position: 'fixed', 
         top: 0, 
         width: '100%', 
         zIndex: 50, 
         borderBottom: '1px solid rgba(255, 255, 255, 0.05)',
-        boxShadow: '0 4px 30px rgba(0, 0, 0, 0.2)'
+        boxShadow: '0 4px 30px rgba(0, 0, 0, 0.4)',
+        backdropFilter: 'blur(16px)',
+        WebkitBackdropFilter: 'blur(16px)',
+        background: 'rgba(5, 5, 5, 0.75)'
       }}
     >
       <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', position: 'relative' }}>
@@ -128,7 +131,7 @@ const Navbar = () => {
               top: '100%', 
               left: 0, 
               width: '100%', 
-              background: 'var(--color-bg-base)',
+              background: '#050505',
               borderBottom: '1px solid var(--color-border)',
               overflow: 'hidden',
               display: 'flex',
